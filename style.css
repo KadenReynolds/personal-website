@@ -1,0 +1,168 @@
+body{
+ background-color: rgb(238, 236, 234)
+}
+
+header{
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  height: 8vh;
+  margin: 0px auto;
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+  background-color: rgb(189, 173, 152);
+}
+
+#links{
+  position: relative;
+  float: right;
+  top: 2.8vh;
+  right: 20px;
+}
+
+.navlinks{
+  padding: 20px 40px;
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  font-size: 1.3em;  
+}
+
+.navlinks:hover{
+  background-color: rgb(161, 147, 129);
+  border-radius: 3px;
+}
+
+#logo{
+  position: relative;
+  margin: 0px auto;
+  padding: 0px;
+  float: left;
+  bottom: 15%;
+  text-align: left;
+  left: 20px;
+  font-variant: small-caps;
+  font-size: 1.25em;
+  color: rgb(153, 52, 52);
+}
+
+#currentpagelink{
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+#divone{
+  position: absolute;
+  z-index: 1;
+  margin: 0px auto;
+  padding: 0px;
+  width: 98vw;
+  height: 100vh;
+  background: url(file:///C:/Users/kaden/Downloads/image_2023-10-09_104027825.png) no-repeat center;
+  background-size: 50%;
+  background-position: right;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+main{
+  position: relative;
+  width: 98vw;
+  min-height: 100vh;
+  margin: 100px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 5px solid white;
+}
+
+#divoneheader{
+  position: absolute;
+  width: 96.7%;
+  padding: 10px;
+  padding-left: 15px;
+  margin: 0px auto;
+  margin-bottom: 5%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.65em;
+  font-weight: 900;
+  text-decoration: underline;
+  color: rgb(218, 92, 92);
+}
+
+#informationparagraph{
+  position: absolute;
+  padding-top: 25vh;
+  padding-left: 30px;
+  color: rgb(27, 27, 27);
+  font-size: 1.3em;
+  font-weight: light;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  word-spacing: .1em;
+}
+
+#favquote{
+  position: absolute;
+  padding-top: 65vh;
+  padding-left: 4vw;
+  font-weight: lighter;
+  font-size: 3em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(214, 116, 116);
+}
+
+
+footer{
+  position: fixed;
+  z-index: 2;
+  padding: 0;
+  margin: 0px auto;
+  left: 0px;
+  bottom: 0px;
+  width: 100vw;
+  height: 8vh;
+  background-color: black;
+}
+
+#interestheader{
+  padding: 20px;
+  font-size: 3em;
+  color:  rgb(214, 116, 116);
+}
+
+#interestpara{
+  text-align: center;
+  margin: 0px auto;
+  width: fit-content;
+  font-size: 2em;
+  font-weight: lighter;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(229, 230, 231);
+  border-radius: 10px;
+}
+
+#discordimg{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: 10px 38vw;
+}
+
+#discordlink:hover{
+  background-color: rgb(0, 0, 0);
+  border-radius: 0px;
+}
+
+#githubimg{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: 10px 45vw;
+}
+
+#redditimg{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: 10px 52vw;
+}
