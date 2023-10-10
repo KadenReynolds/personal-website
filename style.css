@@ -62,7 +62,7 @@ header{
   background: url(file:///C:/Users/kaden/Downloads/image_2023-10-09_104027825.png) no-repeat center;
   background-size: 50%;
   background-position: right;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(241, 232, 219);
   border-radius: 10px;
 }
 
@@ -141,11 +141,77 @@ footer{
   border-radius: 10px;
 }
 
+#projectsheader{
+  padding: 0;
+  margin: 5px auto;
+  text-align: center;
+  font-size: 4em;
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+}
+
+#projectone{
+  background-color: rgb(235, 235, 235);
+}
+
+#projectoneimage{
+  position: absolute;
+  margin: 75px auto;
+  right: 30px;
+  width: 30vw;
+  height: 70vh;
+  background: url(file:///C:/Users/kaden/Videos/Captures/Document%20-%20Opera%2010_10_2023%2012_19_15%20AM.png) no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+#projectonedesc{
+  padding: 10px;
+  width: 35vw;
+  margin-top: 80px;
+  margin-left: 20px;
+  font-size: 1.75em;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#projectonelink{
+  position: absolute;
+  padding-top: 8vh;
+  left: 30%;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(136, 135, 135);
+}
+
+.projectdivs{
+  position: relative;
+  padding-top:10px;
+  margin: 5px auto;
+  width: 70vw;
+  height: 70vh;
+  background-color: rgb(218, 218, 218);
+  border-radius: 7px;
+}
+
+.projectname{
+  margin: 20px;
+  width: 30vw;
+  height: 4vh;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 3em;
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+}
+
 #discordimg{
   position: absolute;
   width: 50px;
   height: 50px;
-  margin: 10px 38vw;
+  margin: 10px 44vw;
 }
 
 #discordlink:hover{
@@ -157,12 +223,12 @@ footer{
   position: absolute;
   width: 50px;
   height: 50px;
-  margin: 10px 45vw;
+  margin: 10px 49vw;
 }
 
 #redditimg{
   position: absolute;
   width: 50px;
   height: 50px;
-  margin: 10px 52vw;
+  margin: 10px 54vw;
 }
