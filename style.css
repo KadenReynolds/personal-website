@@ -1,5 +1,5 @@
 body{
- background-color: rgb(238, 236, 234)
+ background-color: rgb(255, 255, 255)
 }
 
 header{
@@ -11,7 +11,7 @@ header{
   padding: 0px;
   left: 0px;
   top: 0px;
-  background-color: rgb(189, 173, 152);
+  background-color: rgb(255, 214, 186);
 }
 
 #links{
@@ -44,7 +44,7 @@ header{
   left: 20px;
   font-variant: small-caps;
   font-size: 1.25em;
-  color: rgb(153, 52, 52);
+  color: rgb(162, 44, 41);
 }
 
 #currentpagelink{
@@ -62,7 +62,7 @@ header{
   background: url(file:///C:/Users/kaden/Downloads/image_2023-10-09_104027825.png) no-repeat center;
   background-size: 50%;
   background-position: right;
-  background-color: rgb(241, 232, 219);
+  background-color: rgb(230, 235, 239);
   border-radius: 10px;
 }
 
@@ -73,7 +73,6 @@ main{
   margin: 100px auto;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  border: 5px solid white;
 }
 
 #divoneheader{
@@ -87,14 +86,14 @@ main{
   font-size: 2.65em;
   font-weight: 900;
   text-decoration: underline;
-  color: rgb(218, 92, 92);
+  color: rgb(116, 179, 206);
 }
 
 #informationparagraph{
   position: absolute;
   padding-top: 25vh;
   padding-left: 30px;
-  color: rgb(27, 27, 27);
+  color: rgb(56,56,76);
   font-size: 1.3em;
   font-weight: light;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -108,7 +107,7 @@ main{
   font-weight: lighter;
   font-size: 3em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(214, 116, 116);
+  color: rgb(116, 179, 206);
 }
 
 
@@ -127,7 +126,7 @@ footer{
 #interestheader{
   padding: 20px;
   font-size: 3em;
-  color:  rgb(214, 116, 116);
+  color:  rgb(86, 86, 118);
 }
 
 #interestpara{
@@ -137,7 +136,8 @@ footer{
   font-size: 2em;
   font-weight: lighter;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(229, 230, 231);
+  background-color: rgb(230, 235, 239);
+  color: rgb(48, 112, 136);
   border-radius: 10px;
 }
 
@@ -145,13 +145,15 @@ footer{
   padding: 0;
   margin: 5px auto;
   text-align: center;
+  text-decoration: underline;
   font-size: 4em;
   font-family: Arial, sans-serif;
   font-weight: lighter;
+  color: rgb(86, 86, 118);
 }
 
 #projectone{
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(230, 235, 239);
 }
 
 #projectoneimage{
@@ -182,8 +184,79 @@ footer{
   text-align: center;
   font-size: 3em;
   font-weight: bold;
-  color: rgb(136, 135, 135);
+  color: rgb(5, 74, 77);
 }
+
+#projecttwo{
+  background-color: rgb(230, 235, 239);
+}
+
+#projecttwoimage{
+  position: absolute;
+  margin: 75px auto;
+  right: 30px;
+  width: 30vw;
+  height: 70vh;
+  background: url(file:///C:/Users/kaden/Downloads/Grocery%20List%20-%20Opera%2010_10_2023%202_09_13%20PM.png) no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+#projecttwodesc{
+  padding: 10px;
+  width: 35vw;
+  margin-top: 80px;
+  margin-left: 20px;
+  font-size: 1.75em;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#projecttwolink{
+  position: absolute;
+  padding-top: 8vh;
+  left: 30%;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(5, 74, 77);
+}
+
+#projectthree{
+  background-color: rgb(230, 235, 239);
+}
+
+#projectthreeimage{
+  position: absolute;
+  margin: 75px auto;
+  right: 30px;
+  width: 30vw;
+  height: 70vh;
+  background: url(file:///C:/Users/kaden/Videos/Captures/KadenReynolds_Block_05-ZooProblem%20-%20Opera%2010_10_2023%202_18_54%20PM.png) no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+#projectthreedesc{
+  padding: 10px;
+  width: 35vw;
+  margin-top: 80px;
+  margin-left: 20px;
+  font-size: 1.75em;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#projectthreelink{
+  position: absolute;
+  padding-top: 8vh;
+  left: 30%;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(5, 74, 77);
+}
+
 
 .projectdivs{
   position: relative;
@@ -202,7 +275,7 @@ footer{
   padding-bottom: 20px;
   text-align: center;
   font-size: 3em;
-  color: black;
+  color: rgb(48, 112, 136);
   border-radius: 10px;
   background-color: white;
 }
