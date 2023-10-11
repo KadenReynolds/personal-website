@@ -1,9 +1,4 @@
-@media(max-width: 1890px){
-  body{
-    margin: 0;
-    padding: 0;
-  }
-}
+
 
 body{
  background-color: rgb(230, 230, 230)
@@ -29,6 +24,7 @@ header{
 }
 
 .navlinks{
+  margin: .2em;
   padding: 20px 40px;
   color: white;
   text-decoration: none;
@@ -37,8 +33,9 @@ header{
 }
 
 .navlinks:hover{
-  background-color: rgb(161, 147, 129);
+  background-color: rgb(216, 208, 197);
   border-radius: 3px;
+  font-weight: bold;
 }
 
 #logo{
@@ -62,6 +59,7 @@ header{
 #divone{
   position: absolute;
   z-index: 1;
+  left: .1vw;
   margin: 0px auto;
   padding: 0px;
   width: 98vw;
@@ -115,19 +113,6 @@ main{
   font-size: 3em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(116, 179, 206);
-}
-
-
-footer{
-  position: fixed;
-  z-index: 2;
-  padding: 0;
-  margin: 0px auto;
-  left: 0px;
-  bottom: 0px;
-  width: 100vw;
-  height: 8vh;
-  background-color: black;
 }
 
 #interestheader{
@@ -326,4 +311,16 @@ footer{
   width: 50px;
   height: 50px;
   margin: 10px 54vw;
+}
+
+footer{
+  position: fixed;
+  z-index: 2;
+  padding: 0;
+  margin: 0px auto;
+  left: 0px;
+  bottom: 0px;
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(255, 214, 186);
 }
